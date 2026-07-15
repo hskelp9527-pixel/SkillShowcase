@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="README.zh-CN.md">中文</a> ·
-  <a href="docs/index.html">Generated showcase</a> ·
+  <a href="https://hskelp9527-pixel.github.io/SkillShowcase/">Live showcase</a> ·
   <a href="examples/popular-skills.bilingual.html">Bilingual example</a> ·
   <a href="examples/skill-showcase.example.html">Minimal example</a>
 </p>
@@ -27,7 +27,7 @@ A repository may contain one Skill or hundreds. Its README explains the project,
 **SkillShowcase turns those sources into one shareable HTML page.** Give an agent one or more Skill links; receive a searchable gallery written for humans, with grounded explanations and realistic usage examples.
 
 <p align="center">
-  <a href="docs/index.html">
+  <a href="https://hskelp9527-pixel.github.io/SkillShowcase/">
     <img src="docs/assets/product-demo.png" alt="A generated SkillShowcase page with repository tabs, search, and capability cards" width="92%">
   </a>
 </p>
@@ -84,7 +84,7 @@ The included showcase was produced from public Skill repositories rather than ha
 | [GPT Image 2 Skill](https://github.com/wuyoscar/GPT-Image2-Skill) | 1 | 1 |
 | **Total** | **27** | **11** |
 
-Open the [generated showcase](docs/index.html) or read the [test report](reports/real-world-test-2026-07-15.md). Download the HTML to use its tabs, search, and language switch locally.
+Open the [live showcase](https://hskelp9527-pixel.github.io/SkillShowcase/) or read the [test report](reports/real-world-test-2026-07-15.md).
 
 ## Install
 

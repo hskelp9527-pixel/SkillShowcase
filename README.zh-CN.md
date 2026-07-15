@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="README.md">English</a> ·
-  <a href="docs/index.html">生成页面</a> ·
+  <a href="https://hskelp9527-pixel.github.io/SkillShowcase/">在线展示</a> ·
   <a href="examples/popular-skills.bilingual.html">真实仓库双语示例</a> ·
   <a href="examples/skill-showcase.example.html">最小示例</a>
 </p>
@@ -27,7 +27,7 @@
 **SkillShowcase 把这些来源整理成一个可分享的 HTML 页面。** 用户只需提供一个或多个 Skill 链接，Agent 就能生成面向人的能力展厅：说明有依据、案例能直接使用、每项都能回到原始来源。
 
 <p align="center">
-  <a href="docs/index.html">
+  <a href="https://hskelp9527-pixel.github.io/SkillShowcase/">
     <img src="docs/assets/product-demo.png" alt="SkillShowcase 生成页面，包含项目标签、搜索和能力卡片" width="92%">
   </a>
 </p>
@@ -84,7 +84,7 @@ SkillShowcase 不执行远程脚本，仓库内容始终按不可信资料处理
 | [GPT Image 2 Skill](https://github.com/wuyoscar/GPT-Image2-Skill) | 1 | 1 |
 | **合计** | **27** | **11** |
 
-可以查看[生成页面](docs/index.html)，或阅读[真实仓库测试报告](reports/real-world-test-2026-07-15.md)。下载 HTML 后即可在本地使用 Tab、搜索和语言切换。
+可以直接打开[在线展示](https://hskelp9527-pixel.github.io/SkillShowcase/)，或阅读[真实仓库测试报告](reports/real-world-test-2026-07-15.md)。
 
 ## 安装
 
