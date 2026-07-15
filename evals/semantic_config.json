@@ -1,0 +1,39 @@
+{
+  "fallback_positive_concepts": ["skill_sources", "human_explanation", "showcase_artifact"],
+  "positive_concepts": {
+    "skill_sources": {
+      "weight": 0.36,
+      "phrases": ["skill links", "skill repository", "skill repositories", "skill.md", "github repositories", "skills", "skill 链接", "skill 仓库", "仓库链接"]
+    },
+    "human_explanation": {
+      "weight": 0.30,
+      "phrases": ["explain every skill", "what each skill does", "capabilities", "inputs", "outputs", "example prompts", "usage examples", "说明每个 skill", "都是干嘛的", "用途", "输入", "输出", "使用案例"]
+    },
+    "showcase_artifact": {
+      "weight": 0.34,
+      "phrases": ["html overview", "html showcase", "capability gallery", "searchable capability gallery", "shareable page", "bilingual showcase", "html 总览", "html", "展示页", "能力展示", "双语"]
+    }
+  },
+  "negative_concepts": {
+    "install_or_execute": {
+      "weight": 0.55,
+      "exclusive": true,
+      "phrases": ["install", "execute", "run the", "安装", "执行", "运行这个"]
+    },
+    "audit_or_rank": {
+      "weight": 0.50,
+      "exclusive": true,
+      "phrases": ["security audit", "dangerous commands", "rank", "stars", "安全审计", "危险命令", "排名"]
+    },
+    "create_skill": {
+      "weight": 0.52,
+      "exclusive": true,
+      "phrases": ["create a new agent skill", "turn this repeated workflow into", "new reusable agent skill", "创建一个 skill", "做成新 skill"]
+    },
+    "registry_management": {
+      "weight": 0.50,
+      "exclusive": true,
+      "phrases": ["registry", "versions and installations", "skill registry", "注册表", "版本管理"]
+    }
+  }
+}

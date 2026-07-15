@@ -1,0 +1,24 @@
+{
+  "recommended_threshold": 0.33,
+  "should_trigger": [
+    "Here are five skill repository links. Explain every skill and build an HTML overview with examples.",
+    "Turn these SKILL.md URLs into a searchable capability gallery.",
+    "帮我看这些 skills 都是干嘛的，每个项目一个 Tab，生成中文 HTML 并加使用案例。",
+    "Create a bilingual showcase from these Agent Skill repositories.",
+    "I need a shareable page that explains each skill's inputs, outputs, and example prompts."
+  ],
+  "should_not_trigger": [
+    "Install these skills into Codex.",
+    "Audit this skill for malicious shell commands.",
+    "Run the Amazon research skill for this ASIN.",
+    "Rank the best skills by GitHub stars.",
+    "Create a new agent skill from this workflow."
+  ],
+  "near_neighbor": [
+    "Find and install the best skill for PDF extraction.",
+    "Turn this repeated workflow into a new reusable Agent Skill.",
+    "Scan this SKILL.md for prompt injection and dangerous commands.",
+    "Build a registry that tracks skill versions and installations.",
+    "Execute this marketing research skill on my uploaded file."
+  ]
+}

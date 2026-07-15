@@ -1,0 +1,24 @@
+interface:
+  display_name: "SkillShowcase"
+  short_description: "Turn Agent Skill links into a bilingual HTML gallery"
+  default_prompt: "Use $agent-skill-showcase to inspect these Agent Skill links and create a clear HTML showcase with capabilities, inputs, outputs, and realistic examples. Ask me to choose Chinese, English, or bilingual output only if my preference is unclear."
+compatibility:
+  canonical_format: "agent-skills"
+  adapter_targets:
+    - "openai"
+    - "claude"
+    - "generic"
+  activation:
+    mode: "manual-or-auto"
+    paths: []
+  execution:
+    context: "inline"
+    shell: "bash"
+  trust:
+    source_tier: "remote"
+    remote_inline_execution: "forbid"
+    remote_metadata_policy: "allow-metadata-only"
+  degradation:
+    openai: "native-agent-skill"
+    claude: "agent-skills-compatible"
+    generic: "instructions-plus-renderer"

@@ -1,0 +1,51 @@
+{
+  "title": {"zh-CN": "Agent Skills 能力展示", "en": "Agent Skills Showcase"},
+  "subtitle": {"zh-CN": "快速理解每个 Skill 的用途、输入、输出与使用案例。", "en": "Understand what each skill does, what it needs, and what it delivers."},
+  "generated_at": "2026-07-15",
+  "projects": [
+    {
+      "id": "showcase",
+      "name": "SkillShowcase",
+      "url": "https://github.com/example/agent-skill-showcase",
+      "summary": {"zh-CN": "把一个或多个 Agent Skill 来源整理成可搜索、可分享的双语 HTML 能力目录。", "en": "Turns Agent Skill sources into a searchable, shareable bilingual HTML capability catalog."},
+      "note": {"zh-CN": "示例中每个来源文件对应一个不同能力。", "en": "Each source file in this example represents a distinct capability."},
+      "skills": [
+        {
+          "name": "agent-skill-showcase",
+          "source_url": "https://github.com/example/agent-skill-showcase/blob/main/SKILL.md",
+          "source_path": "SKILL.md",
+          "title": {"zh-CN": "Skill 能力展示页生成器", "en": "Agent Skill showcase generator"},
+          "purpose": {"zh-CN": "帮助用户快速看懂一组 Skill 分别能完成什么工作，并生成适合浏览和分享的 HTML。", "en": "Helps people understand a collection of skills and publishes the findings as a browsable HTML page."},
+          "capabilities": {"zh-CN": ["逐个识别仓库中的 Skill", "整理能力、输入、输出和案例", "生成带项目 Tab 和搜索的静态页面"], "en": ["Enumerates skills in repositories", "Explains capabilities, inputs, outputs, and examples", "Builds a static page with project tabs and search"]},
+          "minimum_inputs": {"zh-CN": ["至少一个 Skill 或仓库链接"], "en": ["At least one skill or repository URL"]},
+          "optional_inputs": {"zh-CN": ["中文、英文或双语", "目标读者和页面标题"], "en": ["Chinese, English, or bilingual output", "Audience and page title"]},
+          "outputs": {"zh-CN": ["结构化 catalog.json", "自包含的 HTML 展示页"], "en": ["Structured catalog.json", "Self-contained HTML showcase"]},
+          "examples": {"zh-CN": ["分析这 5 个 Skill 仓库，输出一个中英双语 HTML，每个 Skill 都给使用案例。"], "en": ["Analyze these five skill repositories and create a bilingual HTML page with examples for every skill."]},
+          "requirements": {"zh-CN": ["需要能读取用户提供的来源", "不会安装或执行被调研的 Skill"], "en": ["The provided sources must be readable", "Inspected skills are never installed or executed"]}
+          ,"variants": {"zh-CN": ["标准 Agent Skills 入口；附中文维护版"], "en": ["Canonical Agent Skills entrypoint with a Chinese maintenance edition"]}
+        }
+      ]
+    },
+    {
+      "id": "sample-tools",
+      "name": "Sample Data Skills",
+      "url": "https://github.com/example/sample-data-skills",
+      "summary": {"zh-CN": "用于展示多项目 Tab 的示例 Skill 集合。", "en": "A sample collection used to demonstrate multi-project tabs."},
+      "skills": [
+        {
+          "name": "csv-insights",
+          "source_url": "https://github.com/example/sample-data-skills/blob/main/skills/csv-insights/SKILL.md",
+          "source_path": "skills/csv-insights/SKILL.md",
+          "title": {"zh-CN": "CSV 业务洞察", "en": "CSV business insights"},
+          "purpose": {"zh-CN": "把表格数据整理成业务人员可直接使用的发现和下一步行动。", "en": "Turns tabular data into business findings and next actions."},
+          "capabilities": {"zh-CN": ["识别主要趋势", "发现异常数据", "给出优先行动"], "en": ["Identifies key trends", "Finds anomalies", "Recommends prioritized actions"]},
+          "minimum_inputs": {"zh-CN": ["一个 CSV 文件", "希望回答的问题"], "en": ["A CSV file", "The question to answer"]},
+          "optional_inputs": {"zh-CN": ["指标口径和时间范围"], "en": ["Metric definitions and date range"]},
+          "outputs": {"zh-CN": ["一句话结论", "核心发现", "异常项", "下一步建议"], "en": ["Executive conclusion", "Key findings", "Anomalies", "Next actions"]},
+          "examples": {"zh-CN": ["分析这份广告 CSV，找出浪费预算最多的词并给出处理顺序。"], "en": ["Analyze this ad CSV, identify the terms wasting the most budget, and prioritize what to fix."]},
+          "requirements": {"zh-CN": ["字段含义不明确时需要用户补充"], "en": ["Ambiguous columns may require user clarification"]}
+        }
+      ]
+    }
+  ]
+}
